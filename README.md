@@ -25,7 +25,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 ![](docs/part1/images/alu.png)
 
 ## Video Demonstration
-Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
+Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 
 ![]()
 
