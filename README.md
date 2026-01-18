@@ -9,8 +9,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 ## Overview
 - **Full project description:**  
   The project demonstrates the design, verification, and hardware implementation of a 4-bit ALU on FPGA, followed by a system-level extension using ROM-based operand sequencing and PS/PL interaction.
-- **Skills Developed:**  
-  RTL design in VHDL, modular hardware architecture, testbench-based verification, FPGA debugging, overflow and exception handling, and structured version control using GitHub.
+- **Skills Developed:** RTL design in VHDL, use of sequential statements (if, case), and testbench-based verification with waveform analysis.
 - **Features:**  
   4-bit ALU supporting addition, subtraction, multiplication, and division.  
   Warning logic for overflow, negative results, and division by zero.  
