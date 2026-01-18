@@ -7,20 +7,14 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 ---
 
 ## Overview
-
 - **Full project description:**  
   The project demonstrates the design, verification, and hardware implementation of a 4-bit ALU on FPGA, followed by a system-level extension using ROM-based operand sequencing and PS/PL interaction.
-
 - **Skills Developed:**  
   RTL design in VHDL, modular hardware architecture, testbench-based verification, FPGA debugging, overflow and exception handling, and structured version control using GitHub.
-
 - **Features:**  
   4-bit ALU supporting addition, subtraction, multiplication, and division.  
   Warning logic for overflow, negative results, and division by zero.  
   Extended version includes ROM-driven inputs and controlled operation sequencing.
-
 - **Technology:** Xilinx Vivado, Zybo Z7 (Zynq-7000), Zynq Processing System (ARM Cortex-A9).
-
 - **Simulation:** Functional verification performed using VHDL testbenches and waveform analysis.
-
 - **Language:** VHDL
