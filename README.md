@@ -33,6 +33,10 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 - **Vivado files:** [alu_project]()
 - **Code explanation:** [code]()
 - **Simulation results:** [testbench]()
+- **Possible improvements:**  
+  1. Parameterisation of data width (scalable ALU design)  
+  2. Support for signed arithmetic operations  
+  3. Extended status flags (e.g. zero, carry, overflow)
 
 ---
 
