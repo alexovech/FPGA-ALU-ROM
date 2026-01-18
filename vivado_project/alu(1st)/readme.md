@@ -9,5 +9,4 @@ This directory contains a standalone Vivado project.
 All RTL source files and the testbench are located in: `project_alu.srcs/`
 
 If Vivado prompts to regenerate output products, confirm the action.
-
 No generated files (runs, cache, bitstream) are included in this directory.
