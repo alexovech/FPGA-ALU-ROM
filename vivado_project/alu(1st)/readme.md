@@ -3,10 +3,11 @@
 This directory contains a standalone Vivado project.
 
 
-1. Open **Vivado**.
-2. Select **Open Project**.
-3. Open the file: project_alu.xpr
-4. Vivado will automatically load all required sources from: project_alu.srcs/
-5. If Vivado prompts to regenerate output products, confirm the action.
+1. Copy the entire `project_alu` directory to a local location on your computer.
+2. Open the Vivado project using the file: 'project_alu.xpr'
+3. Vivado will automatically load all required sources from: project_alu.srcs/
+4. All RTL source files and the testbench are located in: 'project_alu.srcs/'
+
+If Vivado prompts to regenerate output products, confirm the action.
 
 No generated files (runs, cache, bitstream) are included in this directory.
