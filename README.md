@@ -20,3 +20,6 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 
 # Stage 1
 **Full description:** [Overview1](docs/part1/overview1.md)
+
+## Photo Demonstration
+![]()
