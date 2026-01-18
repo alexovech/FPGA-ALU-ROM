@@ -55,6 +55,10 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 - **Vivado files:** [Alu_project]()
 - **Code explanation:** [Code]()
 - **Simulation results:** [Testbench]()
+- **Possible improvements:**  
+  1. PS-controlled operand and opcode configuration via AXI interface  
+  2. Expansion of ROM size and support for programmable data patterns  
+  3. Hardware–software synchronisation and status reporting (PS ↔ PL)
 
 ---
 
