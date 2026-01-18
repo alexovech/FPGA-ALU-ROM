@@ -2,7 +2,7 @@
 
 Individual project.  
 Designed and implemented an FPGA-based Arithmetic Logic Unit (ALU) using VHDL.
-The project was developed in two stages, progressing from a standalone ALU to an extended ROM-driven design integrated with the Zynq-7000 Processing System on the Zybo Z7 board.
+The project was developed in two stages: a standalone ALU and an extended ROM-driven design.
 
 ---
 
