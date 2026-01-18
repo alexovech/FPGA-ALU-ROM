@@ -19,7 +19,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 ---
 
 # Stage 1
-**Full description:** [Overview1](docs/part1/overview1.md)
+**Full description:** [Overview_1](docs/part1/overview1.md)
 
 ## Photo Demonstration
 ![](docs/part1/images/alu.png)
@@ -37,7 +37,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 ---
 
 # Stage 2
-**Full description:** [Overview2](docs/part1/overview1.md)
+**Full description:** [Overview_2](docs/part1/overview1.md)
 
 ## Photo Demonstration
 ![](docs/part2/images/alu_rom.png)
