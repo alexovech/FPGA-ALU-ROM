@@ -30,7 +30,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 ![]()
 
 ## Additional Resources
-- **Vivado files:** [Clk_arm_based](vivado_project/alu(1st))
+- **Vivado files:** [Alu_project](vivado_project/alu(1st))
 - **Code explanation:** [Code]()
 - **Simulation results:** [Testbench]()
 - **Possible improvements:**  
@@ -52,7 +52,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 ![]()
 
 ## Additional Resources
-- **Vivado files:** [Alu_project](vivado_project/alu_rom(2nd))
+- **Vivado files:** [Clk_arm_based](vivado_project/alu_rom(2nd))
 - **Code explanation:** [Code]()
 - **Simulation results:** [Testbench]()
 - **Possible improvements:**  
