@@ -15,3 +15,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 - **Technology:** Xilinx Vivado, Zybo Z7 (Zynq-7000), Zynq Processing System (ARM Cortex-A9).
 - **Simulation:** Functional verification performed using VHDL testbenches and waveform analysis.
 - **Language:** VHDL
+
+---
+
+# Stage 1
