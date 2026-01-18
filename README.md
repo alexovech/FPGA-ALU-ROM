@@ -2,7 +2,7 @@
 
 Individual project.  
 Designed and implemented an FPGA-based Arithmetic Logic Unit (ALU) using VHDL.  
-The project was developed in two stages: a standalone ALU and an extended ROM-driven design.
+The project consists of two parts: a standalone ALU and an extended ROM-driven design.
 
 ---
 
