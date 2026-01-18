@@ -22,4 +22,4 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 **Full description:** [Overview1](docs/part1/overview1.md)
 
 ## Photo Demonstration
-![]()
+![](docs/part1/images/alu.png)
