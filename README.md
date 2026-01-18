@@ -28,3 +28,26 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 
 ![]()
+
+## Additional Resources
+- **Vivado files:** [alu_project]()
+- **Code explanation:** [code]()
+- **Simulation results:** [testbench]()
+
+---
+
+# Stage 2
+**Full description:** [Overview2](docs/part1/overview1.md)
+
+## Photo Demonstration
+![](docs/part2/images/alu_rom.png)
+
+## Video Demonstration
+Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
+
+![]()
+
+## Additional Resources
+- **Vivado files:** [alu_project]()
+- **Code explanation:** [code]()
+- **Simulation results:** [testbench]()
