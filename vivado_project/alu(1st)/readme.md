@@ -2,7 +2,6 @@
 
 This directory contains a standalone Vivado project.
 
-## Opening the project
 
 1. Open **Vivado**.
 2. Select **Open Project**.
