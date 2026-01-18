@@ -44,7 +44,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 **Full description:** [Overview_2](docs/part1/overview1.md)
 
 ## Photo Demonstration
-![](docs/part2/images/alu_rom.png)
+![](docs/part2/images/ROM_ALU.png)
 
 ## Video Demonstration
 Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
