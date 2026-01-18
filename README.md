@@ -1,7 +1,7 @@
 # FPGA ALU with ROM Extension
 
 Individual project.  
-Designed and implemented an FPGA-based Arithmetic Logic Unit (ALU) using VHDL.
+Designed and implemented an FPGA-based Arithmetic Logic Unit (ALU) using VHDL.  
 The project was developed in two stages: a standalone ALU and an extended ROM-driven design.
 
 ---
