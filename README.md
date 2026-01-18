@@ -30,9 +30,9 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 ![]()
 
 ## Additional Resources
-- **Vivado files:** [alu_project]()
-- **Code explanation:** [code]()
-- **Simulation results:** [testbench]()
+- **Vivado files:** [Alu_project]()
+- **Code explanation:** [Code]()
+- **Simulation results:** [Testbench]()
 - **Possible improvements:**  
   1. Parameterisation of data width (scalable ALU design)  
   2. Support for signed arithmetic operations  
@@ -52,6 +52,6 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/WPylpVr9RIs)
 ![]()
 
 ## Additional Resources
-- **Vivado files:** [alu_project]()
-- **Code explanation:** [code]()
-- **Simulation results:** [testbench]()
+- **Vivado files:** [Alu_project]()
+- **Code explanation:** [Code]()
+- **Simulation results:** [Testbench]()
