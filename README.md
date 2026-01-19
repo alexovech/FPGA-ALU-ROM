@@ -27,7 +27,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 ## Video Demonstration
 Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 
-![]()
+![](docs/part1/videos/part1.gif)
 
 ## Additional Resources
 - **Vivado files:** [Alu_project](vivado_project/alu(1st))
@@ -49,7 +49,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 ## Video Demonstration
 Full action of system: [▶ Watch on YouTube](https://youtu.be/LHuU9mW1duI)
 
-![]()
+![](docs/part2/videos/part2.gif)
 
 ## Additional Resources
 - **Vivado files:** [Clk_ARM_based](vivado_project/alu_rom(2nd))
