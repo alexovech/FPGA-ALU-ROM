@@ -18,7 +18,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
 
 ---
 
-# Stage 1
+# Stage 1 (ALU)
 **Full description:** [Overview_1](docs/part1/overview1.md)
 
 ## Photo Demonstration
@@ -40,7 +40,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 
 ---
 
-# Stage 2
+# Stage 2 (ROM modification)
 **Full description:** [Overview_2](docs/part1/overview1.md)
 
 ## Photo Demonstration
