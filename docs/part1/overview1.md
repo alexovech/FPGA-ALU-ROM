@@ -33,3 +33,6 @@ The edge cases include arithmetic overflow, negative numbers, and division by ze
 When the warning LED is asserted, it implies that the result shown should be interpreted in conjunction with the warning LED in order to understand the result of the operation.
 
 This ensures that the behavior of the ALU is transparent to the user.
+
+
+![](images/warning.png)
