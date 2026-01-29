@@ -1,31 +1,30 @@
 ## ALU overview
 
-This part of the project implements a standalone Arithmetic Logic Unit (ALU) on FPGA.
-An ALU is a fundamental digital block responsible for performing basic arithmetic operations on binary data.
+This segment of the project aims to implement a standalone Arithmetic Logic Unit (ALU) on an FPGA.
+An Arithmetic Logic Unit (ALU) is a basic digital component that is used for the execution of basic arithmetic operations on binary numbers.
 
-In this design, the ALU supports the core arithmetic functions such as addition, subtraction, multiplication, and division.
-The wanted operation to be performed is selected by the user with separate switch, allowing the ALU to operate in different modes.
+In this project, the Arithmetic Logic Unit will be able to execute the basic arithmetic operations such as addition, subtraction, multiplication, and division.
+The desired arithmetic operation to be executed by the Arithmetic Logic Unit will be chosen by the user with the help of a separate switch.
 
 ---
 
 ## Input and output configuration
 
-The ALU operates on two independent 4-bit input buses.
-Each input represents an unsigned binary value and is provided to the system using external switches connected to the Zybo Z7 board.
+The Arithmetic Logic Unit will be able to execute arithmetic operations on two independent 4-bit input buses.
+Both inputs will be unsigned binary numbers, and they will be connected to the system through external switches connected to the pmods pins of the Zybo Z7 board.
 
-The result of the selected arithmetic operation is presented as a 4-bit output.
-This output is displayed using four red LEDs, which directly represent the binary value of the computed result.
-
-In addition to the main result output, the system includes a dedicated yellow warning LED.
-This indicator is separate from the result LEDs and is used exclusively to signal exceptional or non-standard operating conditions during computation.
+The output of the arithmetic operation will also be a 4-bit output.
+This output will be shown in the form of four red LEDs, which represent the binary output directly.
+In addition to the output of the arithmetic operation, there will be a separate yellow warning LED.
+This LED will be separate from the red LEDs and will be used for the purpose of warning during the execution of the arithmetic operation.
 
 ---
 
 ## Edge cases and warning indication
 
-The warning LED is asserted whenever the ALU encounters an edge case that cannot be represented directly by the 4-bit result output.
+The warning LED will be asserted in case the ALU encounters an edge case that cannot be directly represented by the output of the 4-bit result.
 
-Such conditions include arithmetic overflow, negative results, and division by zero.
-When the warning LED is active, it indicates that the displayed result should be interpreted together with the warning signal to fully understand the outcome of the operation.
+The edge cases include arithmetic overflow, negative numbers, and division by zero.
+When the warning LED is asserted, it implies that the result shown should be interpreted in conjunction with the warning LED in order to understand the result of the operation.
 
-This approach ensures that exceptional conditions are clearly visible to the user and that the behaviour of the ALU remains transparent and unambiguous.
+This ensures that the behavior of the ALU is transparent to the user.
