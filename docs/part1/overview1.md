@@ -1,9 +1,9 @@
 ## ALU overview
 
-This part of the project implements a standalone Arithmetic Logic Unit (ALU) on FPGA.  
+This part of the project implements a standalone Arithmetic Logic Unit (ALU) on FPGA.
 An ALU is a fundamental digital block responsible for performing basic arithmetic operations on binary data.
 
-In this design, the ALU supports the core arithmetic functions such as addition, subtraction, multiplication, and division.  
+In this design, the ALU supports the core arithmetic functions such as addition, subtraction, multiplication, and division.
 The wanted operation to be performed is selected by the user with separate switch, allowing the ALU to operate in different modes.
 
 ---
