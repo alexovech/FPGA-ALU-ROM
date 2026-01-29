@@ -7,6 +7,7 @@ In this project, the Arithmetic Logic Unit will be able to execute the basic ari
 The desired arithmetic operation to be executed by the Arithmetic Logic Unit will be chosen by the user with the help of a separate switch.
 
 ![](docs/part1/images/alu.png)
+
 ---
 
 ## Input and output configuration
