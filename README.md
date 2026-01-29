@@ -12,7 +12,7 @@ The project consists of two parts: a standalone ALU and an extended ROM-driven d
   1. 4-bit ALU supporting addition, subtraction, multiplication, and division.  
   2. Warning logic for overflow, negative results, and division by zero.  
   3. Extended version includes ROM-driven inputs and controlled operation sequencing.
-- **Technology:** Xilinx Vivado, Zybo Z7 (Zynq-7000), Zynq Processing System (ARM Cortex-A9).
+- **Technology:** Xilinx Vivado, Zybo Z7 (Zynq-7000), Zynq Processing System (ARM Cortex-A9), LEDs.
 - **Simulation:** Functional verification performed using VHDL testbenches and waveform analysis.
 - **Language:** VHDL
 
