@@ -15,6 +15,7 @@ Both inputs will be unsigned binary numbers, and they will be connected to the s
 
 The output of the arithmetic operation will also be a 4-bit output.
 This output will be shown in the form of four red LEDs, which represent the binary output directly.
+
 In addition to the output of the arithmetic operation, there will be a separate yellow warning LED.
 This LED will be separate from the red LEDs and will be used for the purpose of warning during the execution of the arithmetic operation.
 
