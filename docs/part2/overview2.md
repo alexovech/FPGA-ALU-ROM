@@ -14,7 +14,7 @@ The table below shows the complete ROM content used in this design.
 
 ROM content:
 - Addresses `0..6`: even values (2, 4, 6, ...) selected for clean demonstration with constant `2`
-- Address `7`: `1111` (15) used to demonstrate a maximal 4-bit operand case
+- Address `7`: 1111 (15) used to demonstrate a maximal 4-bit operand case
 
 ![]()
 
