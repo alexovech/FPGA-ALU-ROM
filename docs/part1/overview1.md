@@ -42,8 +42,7 @@ The edge cases handled by the ALU include arithmetic overflow, negative results,
 
 ### Warning behaviour by operation
 
-- **ADD:**  
-  `WARNING = 1` if a carry-out occurs (`A + B > 15`)
+- **ADD:** `WARNING = 1` if a carry-out occurs (`A + B > 15`)
 
 - **SUB:**  
   `WARNING = 1` if the arithmetic result is negative  
