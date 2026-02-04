@@ -41,7 +41,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 ---
 
 # Stage 2 (ROM modification)
-**Full description:** [Overview_2](docs/part1/overview1.md)
+**Full description:** [Overview_2](docs/part2/overview2.md)
 
 ## Photo Demonstration
 ![](docs/part2/images/ROM_ALU.png)
