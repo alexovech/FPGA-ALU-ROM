@@ -7,3 +7,5 @@ In the first test, the values of the input operands are set as follows: A = 5 an
 This is the normal case for the ALU.
 
 In the second test, the values of the input operands are set as follows: A = 14 and B = 3. This gives us an output greater than 4 bits, which is the non-standard case.
+
+![](images/code11.png)
