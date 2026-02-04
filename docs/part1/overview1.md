@@ -34,12 +34,26 @@ This LED will be separate from the red LEDs and will be used for the purpose of 
 
 ## Edge cases and warning indication
 
-The warning LED will be asserted in case the ALU encounters an edge case that cannot be directly represented by the output of the 4-bit result.
 
-The edge cases include arithmetic overflow, negative numbers, and division by zero.
-When the warning LED is asserted, it implies that the result shown should be interpreted in conjunction with the warning LED in order to understand the result of the operation.
+The warning LED is asserted when the ALU encounters an edge case that cannot be directly represented by the 4-bit result output.
+This indicator provides additional context for interpreting the displayed result and ensures transparent system behaviour.
 
-This ensures that the behavior of the ALU is transparent to the user.
+The edge cases handled by the ALU include arithmetic overflow, negative results, and division by zero.
+
+### Warning behaviour by operation
+
+- **ADD:**  
+  `WARNING = 1` if a carry-out occurs (`A + B > 15`)
+
+- **SUB:**  
+  `WARNING = 1` if the arithmetic result is negative  
+  `RESULT` displays `abs(A − B)`
+
+- **MUL:**  
+  On overflow: `RESULT = 1111` and `WARNING = 1`
+
+- **DIV:**  
+  Division by zero → `RESULT = 0000` and `WARNING = 1`
 
 
 ![](images/warning.png)
