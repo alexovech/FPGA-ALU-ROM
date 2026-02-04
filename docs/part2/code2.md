@@ -53,4 +53,5 @@ The clock is provided by the ZYNQ Processing System, which is fed into the progr
 ![](images/code24.png)
 
 
-At the final stage the IP-blocks implementation approach was used.
+
+**At the final stage the IP-blocks implementation approach was used.**
