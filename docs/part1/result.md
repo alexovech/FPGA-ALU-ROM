@@ -41,4 +41,4 @@ In the case of the division operation, where OPCODE = 11, first a normal case is
 
 The Vivado simulators generate waveforms that confirm that the ALU block is functioning as desired. All arithmetic operations function as desired, including normal and edge cases, and the warning signal operates as desired for each edge case.
 
-![](images/result14.png)
+![](images/result 14.png)
