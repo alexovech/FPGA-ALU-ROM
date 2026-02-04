@@ -32,7 +32,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 ## Additional Resources
 - **Vivado files:** [Alu_project](vivado_project/alu(1st))
 - **Code explanation:** [Code](docs/part1/code.md)
-- **Simulation results:** [Testbench]()
+- **Simulation results:** [Testbench](docs/part1/result.md)
 - **Possible improvements:**  
   1. Parameterisation of data width (scalable ALU design)  
   2. Support for signed arithmetic operations  
