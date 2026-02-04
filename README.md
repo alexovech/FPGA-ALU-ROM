@@ -53,7 +53,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/LHuU9mW1duI)
 
 ## Additional Resources
 - **Vivado files:** [Clk_ARM_based](vivado_project/alu_rom(2nd))
-- **Code explanation:** [Code]()
+- **Code explanation:** [Code](docs/part2/code2.md)
 - **Simulation results:** [Testbench]()
 - **Possible improvements:**  
   1. PS-controlled operand and opcode configuration via AXI interface  
