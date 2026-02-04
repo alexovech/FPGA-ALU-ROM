@@ -54,11 +54,11 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/LHuU9mW1duI)
 ## Additional Resources
 - **Vivado files:** [Clk_ARM_based](vivado_project/alu_rom(2nd))
 - **Code explanation:** [Code](docs/part2/code2.md)
-- **Simulation results:** [Testbench]()
+- **Simulation results:** [Testbench](docs/part2/result2.md)
 - **Possible improvements:**  
   1. PS-controlled operand and opcode configuration via AXI interface  
   2. Expansion of ROM size and support for programmable data patterns  
-  3. Hardware–software synchronisation and status reporting (PS ↔ PL)
+  3. Hardware–software synchronisation and status reporting (PS - PL)
 
 ---
 
