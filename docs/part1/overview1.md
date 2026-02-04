@@ -6,7 +6,7 @@ The ALU is a digital hardware block responsible for performing basic arithmetic 
 The unit operates on two 4-bit input operands, while the arithmetic operation is selected by the user using a dedicated control input (opcode).
 Depending on the selected opcode, the ALU performs one of the supported arithmetic functions listed below.
 
-### Supported operations (selected by `OPCODE`)
+### Supported operations (selected by `opcode`)
 
 - `00` — ADD (addition)
 - `01` — SUB (subtraction)
