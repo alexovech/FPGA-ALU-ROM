@@ -31,7 +31,6 @@ The use of a process with a case statement helps identify the operation dependin
 There are multiple ways to integrate the ROM and ALU blocks into a single system:  
 the 1st one is based on component instantiation, while the 2nd one relies on IP-blocks integration through Vivado Block Design.
 
----
 
 ### RTL-level component integration
 
