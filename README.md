@@ -34,9 +34,10 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 - **Code explanation:** [Code](docs/part1/code.md)
 - **Simulation results:** [Testbench](docs/part1/result.md)
 - **Possible improvements:**  
-  1. Parameterisation of data width (scalable ALU design)  
-  2. Support for signed arithmetic operations  
-  3. Extended status flags (e.g. zero, carry, overflow)
+  1. Upgrade the ALU datapath from 4-bit to 8-bit (scalable operand/result width)  
+  2. Replace the single warning LED with separate status flags per operation (e.g. ADD overflow, SUB negative, MUL overflow, DIV-by-zero)  
+  3. Add support for signed arithmetic (two’s complement)  
+  4. Support fractional division results using fixed-point representation
 
 ---
 
