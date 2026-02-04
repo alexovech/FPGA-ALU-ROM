@@ -12,7 +12,7 @@ Next, an internal signal is declared, which acts as a counter, keeping record of
 
 Finally, a clock process is used, meaning that the code will be executed whenever there is a change in the clock signal. On every rising edge of the clock, the data stored at that particular location, identified by the counter, is given to the output. Once the data is read, the counter is incremented by one, meaning that the next location of the ROM will be accessed on the next rising edge of the clock.
 
-![]()
+![](images/code21.png)
 
 ---
 
@@ -22,7 +22,7 @@ The code for the ALU used in this design is similar to the code for the `Stage 1
 
 The use of a process with a case statement helps identify the operation depending on the opcode, thus facilitating the processes of addition, subtraction, multiplication, and division. The calculations of these operations are performed using the extended 8-bit values, and the result is stored within the output.
 
-![]()
+![](images/code22.png)
 
 ---
 
