@@ -1,10 +1,17 @@
 ## ALU overview
 
-This segment of the project aims to implement a standalone Arithmetic Logic Unit (ALU) on an FPGA.
-An Arithmetic Logic Unit (ALU) is a basic digital component that is used for the execution of basic arithmetic operations on binary numbers.
+This part of the project implements a standalone Arithmetic Logic Unit (ALU) on an FPGA.
+The ALU is a digital hardware block responsible for performing basic arithmetic operations on binary data.
 
-In this project, the Arithmetic Logic Unit will be able to execute the basic arithmetic operations such as addition, subtraction, multiplication, and division.
-The desired arithmetic operation to be executed by the Arithmetic Logic Unit will be chosen by the user with the help of a separate switch.
+The unit operates on two 4-bit input operands, while the arithmetic operation is selected by the user using a dedicated control input (opcode).
+Depending on the selected opcode, the ALU performs one of the supported arithmetic functions listed below.
+
+### Supported operations (selected by `OPCODE`)
+
+- `00` — ADD (addition)
+- `01` — SUB (subtraction)
+- `10` — MUL (multiplication)
+- `11` — DIV (integer division)
 
 ![](images/alu.png)
 
