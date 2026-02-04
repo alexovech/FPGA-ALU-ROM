@@ -32,7 +32,7 @@ There are multiple ways to integrate the ROM and ALU blocks into a single system
 the 1st one is based on component instantiation, while the 2nd one relies on IP-blocks integration through Vivado Block Design.
 
 
-### RTL-level component integration
+### 1. RTL-level component integration
 
 The first approach is implemented by creating a top-level design source, where both the ROM and ALU are instantiated as VHDL components.
 
@@ -42,7 +42,7 @@ In the code, the ROM and the ALU components are initially declared along with th
 ![](images/code23.png)
 
 
-### IP-based system integration
+### 2. IP-based system integration
 
 The ROM and ALU components were instantiated as separate IP modules using the Vivado Block Design environment.
 
