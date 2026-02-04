@@ -44,15 +44,11 @@ The edge cases handled by the ALU include arithmetic overflow, negative results,
 
 - **ADD:** `WARNING = 1` if a carry-out occurs (`A + B > 15`)
 
-- **SUB:**  
-  `WARNING = 1` if the arithmetic result is negative  
-  `RESULT` displays `abs(A − B)`
+- **SUB:** On negative result `WARNING = 1` and `RESULT` displays `|A − B|`
 
-- **MUL:**  
-  On overflow: `RESULT = 1111` and `WARNING = 1`
+- **MUL:** On overflow: `RESULT = 1111` and `WARNING = 1`
 
-- **DIV:**  
-  Division by zero → `RESULT = 0000` and `WARNING = 1`
+- **DIV:** `RESULT = 0000` and `WARNING = 1` if denominator is zero
 
 
 ![](images/warning.png)
