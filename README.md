@@ -58,9 +58,15 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/LHuU9mW1duI)
 - **Simulation results:** [Testbench](docs/part2/result2.md)
 - **Possible improvements:**  
   1. PS-controlled operand and opcode configuration via AXI interface  
-  2. Expansion of ROM size and support for programmable data patterns  
+  2. Parameterisable ROM depth and data width 
   3. Hardware–software synchronisation and status reporting (PS - PL)
 
 ---
 
 ## Future Improvements
+
+- Automated self-checking testbenches with PASS/FAIL reporting and error indication
+- Support for logical operations such as AND, OR, and XOR alongside arithmetic operations
+- Extension of the ALU to support multi-byte data widths beyond the current 8-bit limitation
+- Multiple ROM addressing modes (sequential, fixed address, externally controlled)
+- ROM enable and valid signaling for controlled data output
