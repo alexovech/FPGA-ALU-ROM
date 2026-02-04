@@ -28,3 +28,16 @@ The use of a process with a case statement helps identify the operation dependin
 
 ## Approaches of uniting blocks
 
+There are multiple ways to integrate the ROM and ALU blocks into a single system:  
+the 1st one is based on component instantiation, while the 2nd one relies on IP-blocks integration through Vivado Block Design.
+
+---
+
+### RTL-level component integration
+
+The first approach is implemented by creating a top-level design source, where both the ROM and ALU are instantiated as VHDL components.
+
+
+In the code, the ROM and the ALU components are initially declared along with their input and output ports. The ROM is instantiated with the clock and reset connected to their inputs, and the data output of the ROM assigned to an internal signal. This internal signal is later used as the input for the ALU instantiation. By using port mapping, the output of the ROM is connected directly to the input of the ALU, hence the ROM data is processed by the ALU within the complete system.
+
+![]()
