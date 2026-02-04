@@ -31,7 +31,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 
 ## Additional Resources
 - **Vivado files:** [Alu_project](vivado_project/alu(1st))
-- **Code explanation:** [Code]()
+- **Code explanation:** [Code](docs/part1/code.md)
 - **Simulation results:** [Testbench]()
 - **Possible improvements:**  
   1. Parameterisation of data width (scalable ALU design)  
