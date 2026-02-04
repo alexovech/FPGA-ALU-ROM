@@ -36,7 +36,7 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/rUrP-NYsiso)
 - **Possible improvements:**  
   1. Upgrade the ALU datapath from 4-bit to 8-bit (scalable operand/result width)  
   2. Replace the single warning LED with separate status flags per operation (e.g. SUB negative, DIV-by-zero)  
-  3. Add support for signed arithmetic (two’s complement)  
+  3. Add support for signed arithmetic  
   4. Support fractional division results using fixed-point representation
 
 ---
