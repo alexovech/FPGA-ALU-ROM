@@ -51,3 +51,6 @@ The components were connected through graphic integration alongside the ZYNQ Pro
 The clock is provided by the ZYNQ Processing System, which is fed into the programmable logic. This clock is thereafter sent to a binary counter IP block, which produces a 32-bit output signal. A slice block is used to truncate the signal to 3 bits, picking the most significant bits in order to get the lowest possible rate of switching. The truncated signal is sent to the ROM address input.
 
 ![](images/code24.png)
+
+
+At the final stage the IP-blocks implementation approach was used.
