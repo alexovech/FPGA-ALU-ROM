@@ -39,4 +39,15 @@ The first approach is implemented by creating a top-level design source, where b
 
 In the code, the ROM and the ALU components are initially declared along with their input and output ports. The ROM is instantiated with the clock and reset connected to their inputs, and the data output of the ROM assigned to an internal signal. This internal signal is later used as the input for the ALU instantiation. By using port mapping, the output of the ROM is connected directly to the input of the ALU, hence the ROM data is processed by the ALU within the complete system.
 
-![]()
+![](images/code23.png)
+
+
+### IP-based system integration
+
+The ROM and ALU components were instantiated as separate IP modules using the Vivado Block Design environment.
+
+The components were connected through graphic integration alongside the ZYNQ Processing System, which provides clocking and system-level control signals. To facilitate the clock generation, a digital counter was added as a new IP module that was connected to the ROM input. As far as ROM module is concerned, instead of the internal ROM counter, the address is supplied through the use of an input signal that gets the clock value. 
+
+The clock is provided by the ZYNQ Processing System, which is fed into the programmable logic. This clock is thereafter sent to a binary counter IP block, which produces a 32-bit output signal. A slice block is used to truncate the signal to 3 bits, picking the most significant bits in order to get the lowest possible rate of switching. The truncated signal is sent to the ROM address input.
+
+![](images/code24.png)
