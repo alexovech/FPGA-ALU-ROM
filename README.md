@@ -65,26 +65,21 @@ Full action of system: [▶ Watch on YouTube](https://youtu.be/LHuU9mW1duI)
 
 ## Future Improvements
 
-**1. Automated self-checking verification**
-
-    - To introduce automated self-checking testbenches that validate ALU outputs against expected results.
-    - To provide clear PASS/FAIL reporting and explicit error indication without manual waveform inspection.
+1. **Automated self-checking verification**
+   - To introduce automated self-checking testbenches that validate ALU outputs against expected results.
+   - To provide clear PASS/FAIL reporting and explicit error indication without manual waveform inspection.
     
-**2. Support for logical operations**
-
-    - To extend the ALU functionality beyond arithmetic operations by adding logical operations such as AND, OR, and XOR.
-    - This increases flexibility of the computation block and aligns the ALU with instruction sets commonly used in processor architectures.
+2. **Support for logical operations**
+   - To extend the ALU functionality beyond arithmetic operations by adding logical operations such as AND, OR, and XOR.
+   - This increases flexibility of the computation block and aligns the ALU with instruction sets commonly used in processor architectures.
     
-**3. Support for multi-byte data widths**
-
-    - To improve scalability and make the ALU suitable for processing larger data values commonly used in processor and embedded system architectures.
+3. **Support for multi-byte data widths**
+   - To improve scalability and make the ALU suitable for processing larger data values commonly used in processor and embedded system architectures.
     
-**4. Multiple ROM addressing modes**
-
-    - To introduce additional modes such as fixed and externally controlled addressing.
-    - This provides greater control over data sequencing and enables more flexible interaction between the ROM, ALU, and system control logic.
+4. **Multiple ROM addressing modes**
+   - To introduce additional modes such as fixed and externally controlled addressing.
+   - This provides greater control over data sequencing and enables more flexible interaction between the ROM, ALU, and system control logic.
     
-**5. ROM enable and valid signaling**
-
-    - Since the ALU does not always require continuous access to the stored ROM values, explicit control over ROM data output is required.
-    - This provides explicit enable and valid signaling for ROM output, allowing flexible control over when data is supplied to the ALU.
+5. **ROM enable and valid signaling**
+   - Since the ALU does not always require continuous access to the stored ROM values, explicit control over ROM data output is required.
+   - This provides explicit enable and valid signaling for ROM output, allowing flexible control over when data is supplied to the ALU.
